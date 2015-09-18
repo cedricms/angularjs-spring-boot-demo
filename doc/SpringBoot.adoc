@@ -1,0 +1,8 @@
+= Spring Boot
+Spring Boot proposes an elegant solution to quickly set up Java backend projects. It handles most of the configuration overhaul and proposes a solution to bundle a server with the runnable.
+
+== Configuration
+Spring Boot cuts out the usual hassles of configuring a Spring project. Any specific configuration is put in "/src/main/resources/application.properties".
+
+== Running as a JAR with a bundled server
+The following Maven goal lets you run the application as a standalone program through the bundled server : "spring-boot:run"
